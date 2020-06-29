@@ -6,7 +6,7 @@
 	--mid-purp: #ad6989;
 	--purple: #562349;
 		
-	}
+}
 	
 	* {
 	 margin: 0px;
@@ -15,17 +15,20 @@
 	
 	body {
 		font-family: helvetica, arial, sans-serif;
+		background-color: var(--tan);
 	}
 	
 	.nav-bar {
 		display: flex;
 		flex-flow: column wrap;
 		align-items: center;
+		background-color: ;
 	}
 	
 	h1 {
 		font-style: italic;
 		color: #373fff;
+		margin: 20px 0;
 	}
 	
 	ul {
@@ -39,6 +42,45 @@
 		margin: 15px;
 		display: flex;
 		justify-content: space-around;
+		transition: all 0.35s ease;
+	}
+
+	.options:hover {
+		text-decoration: underline;
+		transition: all 0.35s ease;
+	}
+
+	.hero-content {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+		padding: 60px 0;
+		background-color: var(--pink);
+	}
+
+	.hero-title {
+		margin-bottom: 30px;
+	}
+
+	.hero-text {
+		text-align: center;
+		margin:0 30px 20px 30px;
 	}
 	
+	.shop-now-btn {
+
+	}
+	
+	.below-the-fold {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
+
+	.media {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
+
 	

@@ -79,7 +79,11 @@
 	}
 	
 	.shop-now-btn {
-
+		width: 120px;
+		height: 35px;
+		background-color: whitesmoke;
+		font-family: Notable;
+		border-radius: 5px;
 	}
 	
 	.below-the-fold {
@@ -99,8 +103,14 @@
 		background-color: var(--mid-purp);
 	}
 
+	.media-title {
+		text-align: center;
+		margin-top: 0;
+		padding-top: 20px;
+	}
 	.media-3 {
 		background-color: ;
+
 	}
 
 	

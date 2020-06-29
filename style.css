@@ -1,10 +1,8 @@
 
 /* CSS files add styling rules to your content */
 :root {
-	--pink: #ffa299;
-	--mid-purp: #ad6989;
-	--purple: #562349;
-		
+	--pink: rgb(255, 162, 153);
+	--blue: #a6dcef;
 }
 	
 	* {
@@ -45,7 +43,7 @@
 	li:hover {
 		text-decoration: underline;
 		transition: all 0.35s ease;
-		color: var(--mid-purp);
+		color: var(--pink);
 	}
 	
 	.option {

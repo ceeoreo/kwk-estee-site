@@ -84,6 +84,13 @@
 		background-color: whitesmoke;
 		font-family: Notable;
 		border-radius: 5px;
+		border: 1px solid black;
+		transition: all 0.35s ease;
+	}
+
+	.shop-now-btn:hover {
+		transition: all 0.35s ease;
+		transform: scale(1.2);
 	}
 	
 	.below-the-fold {

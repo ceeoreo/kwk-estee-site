@@ -1,0 +1,44 @@
+
+/* CSS files add styling rules to your content */
+:root {
+	--tan: #fee2b3;
+	--pink: #ffa299;
+	--mid-purp: #ad6989;
+	--purple: #562349;
+		
+	}
+	
+	* {
+	 margin: 0px;
+	 padding: 0px;
+	}
+	
+	body {
+		font-family: helvetica, arial, sans-serif;
+	}
+	
+	.nav-bar {
+		display: flex;
+		flex-flow: column wrap;
+		align-items: center;
+	}
+	
+	h1 {
+		font-style: italic;
+		color: #373fff;
+	}
+	
+	ul {
+		list-style-type: none;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	
+	.option {
+		margin: 15px;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	
